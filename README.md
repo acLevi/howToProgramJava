@@ -1,7 +1,7 @@
 # ☕ Java: Como Programar (Paul Deitel & Harvey Deitel)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Estudando-yellow?style=for-the-badge)
 
 Este repositório é dedicado ao estudo, resolução de exercícios e implementação dos exemplos do livro **"Java: Como Programar - 10ª edição"** (Paul Deitel & Harvey Deitel). O objetivo principal é consolidar os fundamentos da linguagem Java, Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento Back-end.
 
