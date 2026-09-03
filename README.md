@@ -19,7 +19,7 @@ Este repositório é dedicado ao estudo, resolução de exercícios e implementa
 
 - [x] **Capítulo 1:** Introdução a Computadores, Internet e Java
 - [x] **Capítulo 2:** Introdução a aplicativos Java — Entrada/Saída e Operadores *(Em andamento)*
-- [ ] **Capítulo 3:** Introdução a Classes, Objetos, Métodos e Strings
+- [x] **Capítulo 3:** Introdução a Classes, Objetos, Métodos e Strings
 - [ ] **Capítulo 4:** Instruções de Controle: Parte 1
 - [ ] **Capítulo 5:** Instruções de Controle: Parte 2
 - [ ] **Capítulo 6:** Métodos: Um Exame Mais Profundo
@@ -60,17 +60,4 @@ Os códigos estão organizados por capítulos para facilitar a navegação:
 └── README.md
 ```
 ---
-## 🛠️ Como Executar os Códigos
-Clone o repositório:
-```Bash
-git clone https://github.com/acLevi/howToProgramJava.git
-```
 
-Navegue até o diretório do capítulo desejado:
-```Bash
-cd howToProgramJava/ch02/exercises/2.18
-```
-Execute o código:
-```Bash
-java DisplayShapes.java
-```
