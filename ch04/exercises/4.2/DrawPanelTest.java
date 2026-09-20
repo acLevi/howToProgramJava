@@ -1,5 +1,3 @@
-// Figura 4.19: DrawPanelTest.java
-// Criando JFrame para exibir uma DrawPanel.
 import javax.swing.JFrame;
 
 public class DrawPanelTest {

@@ -1,9 +1,3 @@
-// Exercise 3.14: Create a class named Date that includes three instance variables: month, day, year.
-// Provide a constructor that initializes the three instance variavles, assuming the provided values are correct.
-// Provide a set method and a get method for each instance variable.
-// Include a displayDate method that displays the month, day, and year separeted by forward slashes
-// Write a test application named DateTest demonstrates the capabilities of the Date class.
-
 public class Date {
     private int day;
     private int month;

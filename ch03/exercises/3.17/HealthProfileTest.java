@@ -1,13 +1,13 @@
-/*
-Neste exercício, você projetará uma classe HealthProfile “inicial” para uma pessoa. 
-Os atributos da classe devem incluir nome, sobrenome, sexo, data de nascimento (consistindo em atributos separados para mês, dia
-e ano de nascimento), altura (em metros) e peso (em quilogramas) da pessoa. Sua classe deve ter um construtor que receba esses dados.
-Para cada atributo, forneça métodos set e get. A classe também deve incluir métodos que calculem e retornem a idade do usuário em anos,
-intervalo de frequência cardíaca máxima e frequência cardíaca alvo (veja o Exercício 3.16), além de índice de massa corporal (IMC; veja
-o Exercício 2.33). Escreva um aplicativo Java que solicite as informações da pessoa, instancie um objeto da classe HealthProfile para
-ela e imprima as informações a partir desse objeto — incluindo nome, sobrenome, sexo, data de nascimento, altura e peso da pessoa ––, e
-então calcule e imprima a idade em anos, IMC, intervalo de frequência cardíaca máxima e frequência cardíaca alvo. Ele também deve exibir
-o gráfico de valores IMC do Exercício 2.33.
+/* Exercise 3.17
+In this exercise, you will design an "initial" HealthProfile class for a person.
+The class attributes must include the person's first name, last name, gender, date of birth (consisting of separate attributes for birth month, day,
+and year), height (in meters), and weight (in kilograms). Your class must have a constructor that accepts this data.
+Provide set and get methods for each attribute. The class must also include methods that calculate and return the user's age in years,
+maximum heart rate range and target heart rate (see Exercise 3.16), as well as body mass index (BMI; see
+Exercise 2.33). Write a Java application that prompts for the person's information, instantiates a HealthProfile object for
+them, and prints the information from that object—including the person's first name, last name, gender, date of birth, height, and weight—and
+then calculates and prints the age in years, BMI, maximum heart rate range, and target heart rate. It must also display
+the BMI values ​​chart from Exercise 2.33.
 */
 
 import java.util.Scanner;

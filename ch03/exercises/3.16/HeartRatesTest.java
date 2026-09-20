@@ -1,17 +1,17 @@
 /* Exercise 3.16:
-Crie uma classe chamada HeartRates. Os atributos da classe devem incluir o nome, sobrenome 
-e data de nascimento da pessoa (consistindo em atributos separados para mês, dia e ano de nascimento). 
-Sua classe deve ter um construtor que receba esses dados como parâmetros. Para cada atributo forneça métodos set e get. 
-A classe também deve incluir um método que calcule e retorne a idade (em anos), um que calcule e retorne a frequência cardíaca máxima 
-e um que calcule e retorne a frequência cardíaca alvo da pessoa.
+Create a class named HeartRates. The class attributes must include the person's first name, last name,
+and date of birth (consisting of separate attributes for the birth month, day, and year).
+Your class must have a constructor that receives this data as parameters. Provide set and get methods for each attribute.
+The class must also include a method that calculates and returns the age (in years), one that calculates and returns the maximum heart rate,
+and one that calculates and returns the person's target heart rate.
 
-Escreva um aplicativo Java que solicite as informações da pessoa, instancie um objeto da classe HeartRates e
-imprima as informações a partir desse objeto — incluindo nome, sobrenome e data de nascimento da pessoa — 
-calcule e imprima a idade da pessoa (em anos), seu intervalo de frequência cardíaca máxima e sua frequência cardíaca alvo.
+Write a Java application that prompts for the person's information, instantiates a HeartRates object, and
+prints the information from that object—including the person's first name, last name, and date of birth—
+calculates and prints the person's age (in years), their maximum heart rate, and their target heart rate range.
 
-A fórmula para calcular a frequência cardíaca máxima por minuto é 220 menos a idade em anos. 
-Sua frequência cardíaca alvo é um intervalo entre 50-85% da sua frequência cardíaca máxima. 
-[Observação: essas fórmulas são estimativas fornecidas pela AHA]
+The formula for calculating the maximum heart rate per minute is 220 minus the age in years.
+The target heart rate is a range between 50% and 85% of the maximum heart rate.
+[Note: these formulas are estimates provided by the AHA]
 */
 
 import java.util.Scanner;

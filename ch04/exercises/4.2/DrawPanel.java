@@ -1,10 +1,10 @@
-// a) Crie o projeto na captura de tela da esquerda na Figura 4.21. Comece dividindo cada borda em um número igual de incrementos (escolhemos 15 novamente). 
-// A primeira linha inicia no canto superior esquerdo e termina um passo à direita na extremidade inferior. 
-// Para cada linha sucessiva, move-se para baixo um incremento na borda esquerda e um incremento para a direita na borda inferior. 
-// Continue desenhando linhas até alcançar o canto inferior direito. 
-// A figura deve ser dimensionada à medida que você redimensiona a janela, de modo que as extremidades sempre toquem as bordas.
+// a) Create the design shown in the left screenshot of Figure 4.21. Start by dividing each edge into an equal number of increments (we chose 15 again).
+// The first line starts at the top-left corner and ends one increment to the right along the bottom edge.
+// For each successive line, move down one increment along the left edge and one increment to the right along the bottom edge.
+// Continue drawing lines until you reach the bottom-right corner.
+// The figure should scale as you resize the window, so that the endpoints always touch the edges.
 
-// b) Modifique sua resposta da parte (a) para espelhar o projeto em todos os quatro cantos, como mostrado na captura de tela da direita na Figura 4.21
+// b) Modify your answer from part (a) to mirror the design in all four corners, as shown in the right screenshot of Figure 4.21.
 
 import java.awt.Graphics;
 import javax.swing.JPanel;

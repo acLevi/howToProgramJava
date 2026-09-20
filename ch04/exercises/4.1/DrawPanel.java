@@ -1,12 +1,12 @@
-// a ) Crie o projeto na captura de tela esquerda da Figura 4.20. Esse projeto desenha linhas do canto superior esquerdo, estendendo-as até que cubram a metade superior esquerda do painel. 
-// Uma abordagem é dividir a largura e altura em um número igual de passos (descobrimos que 15 passos funcionam bem). 
-// A primeira extremidade de uma linha sempre estará no canto superior esquerdo (0, 0).
-// A segunda extremidade pode ser encontrada iniciando no canto inferior esquerdo e movendo-se para cima em um passo vertical e para
-// a direita em um passo horizontal. Desenhe uma linha entre as duas extremidades. Continue movendo-se para cima e para o passo à
-// direita a fim de encontrar cada extremidade sucessiva. A figura deve ser dimensionada de maneira correspondente à medida que você redimensiona a janela.
+// a) Create the project shown in the left screenshot of Figure 4.20. This project draws lines starting from the top-left corner, extending them until they cover the top-left half of the panel.
+// One approach is to divide the width and height into an equal number of steps (we found that 15 steps work well).
+// One end of a line will always be at the top-left corner (0, 0).
+// The other end can be found by starting at the bottom-left corner and moving up by one vertical step and to
+// the right by one horizontal step. Draw a line between the two endpoints. Continue moving up and taking a step to the
+// right to find each successive endpoint. The figure should scale accordingly as you resize the window.
 
-// b) Modifique sua resposta da parte (a) para que as linhas se estendam dos quatro cantos, como mostrado na captura de tela da direita na Figura 4.20. 
-// As linhas de cantos opostos devem se cruzar no meio.
+// b) Modify your answer from part (a) so that the lines extend from all four corners, as shown in the right screenshot of Figure 4.20.
+// The lines from opposite corners should intersect in the middle.
 
 import java.awt.Graphics;
 import javax.swing.JPanel;
