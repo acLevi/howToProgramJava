@@ -17,6 +17,9 @@ WHILE counter is equal or less than 3
     prompt hours worked by employee
     read hours worked by employee
 
+    promt employee's hourly wage
+    read employee's hourly wage
+
     grossSalary = hoursWorked * hourlyWage
 
     if hoursWorked is greater than baseHours
