@@ -65,7 +65,7 @@ public class creditLimit {
 
         Scanner input = new Scanner(System.in);
 
-        int accountId, initialMonthBalance, totalCustomerItems, totalCustomerCredit, creditLimit, newMonthBalance, counter = 1, exit = 1;
+        int accountId, initialMonthBalance, totalCust1omerItems, totalCustomerCredit, creditLimit, newMonthBalance, counter = 1, exit = 1;
 
         while (exit != -1) {
 
