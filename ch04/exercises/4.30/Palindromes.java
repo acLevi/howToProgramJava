@@ -12,12 +12,13 @@ public class Palindromes {
         Scanner input = new Scanner(System.in);
         int number = 1, reversedNumber = 0;
 
-
         while (number < 10000 || number > 99999) {
             System.out.print("Enter a five-digit integer: ");
             number = input.nextInt();
+            if (number < 10000 || number > 99999) {
+                System.out.println("Error: the number must have five digits.");
+            }
         }
-
 
         int tempNumber = number;
         while (tempNumber != 0) {
@@ -29,7 +30,9 @@ public class Palindromes {
         if (reversedNumber == number) {
             System.out.printf("%d is a palindrome! %n%n", number);
         } else {
-            System.out.printf("%d is not a palindrome.2  %n%n", number);
+            System.out.printf("%d is not a palindrome.  %n%n", number);
         }
+
+        input.close();
     }
 }

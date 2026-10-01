@@ -9,23 +9,22 @@ import java.util.Scanner;
 public class AsterisksSquare {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int scareSize = 0, row = 0;
+        int squareSize = 0, row = 0;
 
-        while (scareSize > 20 || scareSize < 1) {
+        while (squareSize > 20 || squareSize < 1) {
             System.out.print("Enter the size square [1-20]: ");
-            scareSize = input.nextInt();
+            squareSize = input.nextInt();
         }
 
-        while (row < scareSize) {
+        while (row < squareSize) {
             int column = 0;
-            while (column < scareSize) {
+            while (column < squareSize) {
                 
-                if (row == 0 || column == 0 || row == (scareSize - 1) || column == (scareSize - 1)) {
-                    System.out.print("#");
+                if (row == 0 || column == 0 || row == (squareSize - 1) || column == (squareSize - 1)) {
+                    System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
-
                 column++;
             }
             row++;

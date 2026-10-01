@@ -3,7 +3,7 @@ Write an application that reads three non-zero integers and determines and print
 they could represent the sides of a right triangle.
 */
 
-import java.util.Scanner;;
+import java.util.Scanner;
 
 public class RightAngledTriangle {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class RightAngledTriangle {
         c = input.nextInt();
 
         if (a + b > c && a + c > b && b + c > a) {
-            if ((a*a) + (b*b) == (c*c) || (a*a) + (c*c) == (b*b) || (b*b) + (c*c) == (a*a)) {
+            if (a*a + b*b == c*c || a*a + c*c == b*b || b*b + c*c == a*a) {
                 System.out.println("Yes, it is a right-angled triangle!");
             } else {
                 System.out.println("It is a triangle, but NOT right-angled.");
@@ -29,5 +29,7 @@ public class RightAngledTriangle {
         } else {
             System.out.println("Isn't a triangle.");
         }
+
+        input.close();
     }
 }

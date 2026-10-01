@@ -1,6 +1,6 @@
 /* Exercise 4.35:
 Write an application that reads three non-zero values entered by the user and 
-determines and prints wheter they could represent the sides of a triangle.
+determines and prints whether they could represent the sides of a triangle.
 */
 
 import java.util.Scanner;
@@ -25,5 +25,7 @@ public class TriangleSides {
         } else {
             System.out.println("Isn't a triangle.");
         }
+
+        input.close();
     }
 }

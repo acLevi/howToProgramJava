@@ -11,8 +11,7 @@ public class BinaryToDecimal {
 
         System.out.print("Insert a binary number: ");
         binary = input.nextInt();
-        
-
+    
         int remainingDigits = binary;
         while (remainingDigits != 0) {
             int digit = remainingDigits % 10;
@@ -23,6 +22,7 @@ public class BinaryToDecimal {
             remainingDigits /= 10;
         }
 
-        System.out.println(decimal);
+        System.out.printf("%d in binary is %d in decimal.%n", binary, decimal);
+        input.close();
     }
 }

@@ -6,7 +6,7 @@ Write an application that uses only output statements to display the following c
     System.out.println();
 */
 
-public class Checkboard {
+public class Checkerboard {
     public static void main(String[] args) {
         
         int row = 0;
@@ -25,3 +25,4 @@ public class Checkboard {
         }
     }
 }
+
