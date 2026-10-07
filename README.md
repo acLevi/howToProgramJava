@@ -20,8 +20,8 @@ Este repositório é dedicado ao estudo, resolução de exercícios e implementa
 - [x] **Capítulo 1:** Introdução a Computadores, Internet e Java
 - [x] **Capítulo 2:** Introdução a aplicativos Java — Entrada/Saída e Operadores *(Em andamento)*
 - [x] **Capítulo 3:** Introdução a Classes, Objetos, Métodos e Strings
-- [ ] **Capítulo 4:** Instruções de Controle: Parte 1
-- [ ] **Capítulo 5:** Instruções de Controle: Parte 2
+- [x] **Capítulo 4:** Instruções de Controle: Parte 1
+- [x] **Capítulo 5:** Instruções de Controle: Parte 2
 - [ ] **Capítulo 6:** Métodos: Um Exame Mais Profundo
 - [ ] **Capítulo 7:** Arrays e ArrayLists
 - [ ] **Capítulo 8:** Classes e Objetos: Um Exame Mais Profundo
