@@ -28,5 +28,7 @@ public class SmallestValue {
         }
 
         System.out.printf("Of the %d numbers read, the smallest is %d%n", counter, smallest);
+
+        input.close();
     }
 }

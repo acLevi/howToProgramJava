@@ -77,5 +77,7 @@ public class BarChart {
             System.out.print("*");
         }
         System.out.println();
+
+        input.close();
     }
 }
