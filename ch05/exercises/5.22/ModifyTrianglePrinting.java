@@ -5,7 +5,7 @@ Question 5.15 by combining your code for the four separate asterisk triangles, s
 
 public class ModifyTrianglePrinting {
     public static void main(String[] args) {
-                for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
 
             // a)
             for (int j = 0; j < i; j++)
